@@ -1,0 +1,53 @@
+{
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "env-cmd -f .env.local next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.0",
+    "@mui/material": "^5.15.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "bootstrap": "^5.3.2",
+    "cookies-next": "^4.1.0",
+    "embla-carousel-autoplay": "^8.0.0-rc15",
+    "embla-carousel-react": "^8.0.0-rc15",
+    "env-cmd": "^10.1.0",
+    "framer-motion": "^10.16.15",
+    "localStorage": "^1.0.4",
+    "next": "14.0.3",
+    "otp-input-react": "^0.3.0",
+    "react": "^18",
+    "react-card-slider-component": "^1.0.9",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.12.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loading-skeleton": "^3.3.1",
+    "react-radio-buttons": "^1.2.2",
+    "react-razorpay": "^2.0.1",
+    "react-redux": "^9.0.3",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-modal": "^6.4.2",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.3",
+    "react-use-clipboard": "^1.0.9",
+    "reactjs-otp-input": "^2.0.8",
+    "reactjs-popup": "^2.0.6",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
